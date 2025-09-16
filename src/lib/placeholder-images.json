@@ -1,0 +1,64 @@
+{
+  "placeholderImages": [
+    {
+      "id": "prod_electronics_1",
+      "description": "A pair of modern wireless headphones on a clean background.",
+      "imageUrl": "https://picsum.photos/seed/sw1/600/600",
+      "imageHint": "wireless headphones"
+    },
+    {
+      "id": "prod_electronics_2",
+      "description": "A sleek and powerful laptop open on a desk.",
+      "imageUrl": "https://picsum.photos/seed/sw2/600/600",
+      "imageHint": "laptop computer"
+    },
+    {
+      "id": "prod_electronics_3",
+      "description": "A modern smartwatch displaying a colorful watch face.",
+      "imageUrl": "https://picsum.photos/seed/sw3/600/600",
+      "imageHint": "smartwatch"
+    },
+    {
+      "id": "prod_apparel_1",
+      "description": "A classic comfortable cotton t-shirt.",
+      "imageUrl": "https://picsum.photos/seed/sw4/600/600",
+      "imageHint": "cotton t-shirt"
+    },
+    {
+      "id": "prod_apparel_2",
+      "description": "A pair of durable denim jeans.",
+      "imageUrl": "https://picsum.photos/seed/sw5/600/600",
+      "imageHint": "denim jeans"
+    },
+    {
+      "id": "prod_apparel_3",
+      "description": "A stylish and comfortable pair of sneakers.",
+      "imageUrl": "https://picsum.photos/seed/sw6/600/600",
+      "imageHint": "sneakers"
+    },
+    {
+      "id": "prod_books_1",
+      "description": "A hardcover book about the history of science.",
+      "imageUrl": "https://picsum.photos/seed/sw7/600/600",
+      "imageHint": "hardcover book"
+    },
+    {
+      "id": "prod_books_2",
+      "description": "A thrilling science fiction novel with a futuristic cover.",
+      "imageUrl": "https://picsum.photos/seed/sw8/600/600",
+      "imageHint": "sci-fi novel"
+    },
+    {
+      "id": "prod_books_3",
+      "description": "A cookbook filled with delicious recipes and vibrant photos.",
+      "imageUrl": "https://picsum.photos/seed/sw9/600/600",
+      "imageHint": "cookbook"
+    },
+    {
+      "id": "prod_home_1",
+      "description": "A modern ceramic coffee mug.",
+      "imageUrl": "https://picsum.photos/seed/sw10/600/600",
+      "imageHint": "coffee mug"
+    }
+  ]
+}
