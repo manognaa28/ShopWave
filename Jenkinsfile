@@ -22,6 +22,11 @@ pipeline {
             steps {
                 sh 'npm test'  // No "|| echo", so build fails if tests fail
             }
+        stage('Run Tests') {
+            steps {
+                sh 'npx jest --passWithNoTests'
+            }
+        }
         }
     }
 }
