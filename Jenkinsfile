@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs "NodeJS"   // make sure you've added NodeJS in Jenkins global tools
+        nodejs "NodeJS"   // Make sure NodeJS is configured in Jenkins global tools
     }
 
     stages {
@@ -18,11 +18,10 @@ pipeline {
             }
         }
 
-        stage('Run Tests') {
+        stage('Run Integration Tests') {
             steps {
-                sh 'npm test || echo "No tests found"'
+                sh 'npm test'  // No "|| echo", so build fails if tests fail
             }
         }
     }
 }
-
