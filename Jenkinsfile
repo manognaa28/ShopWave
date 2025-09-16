@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs "NodeJS"   // Make sure NodeJS is configured in Jenkins global tools
+        nodejs "NodeJS"  // Make sure NodeJS is configured in Jenkins global tools
     }
 
     stages {
@@ -20,13 +20,14 @@ pipeline {
 
         stage('Run Integration Tests') {
             steps {
-                sh 'npm test'  // No "|| echo", so build fails if tests fail
+                sh 'npm test'  // Fails the build if tests fail
             }
+        }
+
         stage('Run Tests') {
             steps {
                 sh 'npx jest --passWithNoTests'
             }
-        }
         }
     }
 }
